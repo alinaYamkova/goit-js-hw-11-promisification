@@ -6,7 +6,7 @@
  const delay = ms => {
   return new Promise((res) => {
     setTimeout(() => {
-      res(`${ms}`)
+      res(ms)
     }, ms);
   });
 };
